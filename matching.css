@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+body {
+  background-color: black;
+  background-size: 100% 700px;
+  background-image: url(http://www.thephotoargus.com/wp-content/uploads/2015/08/kerry-park5.jpg);
+  background-repeat: no-repeat;
+}
+
+td {
+  max-width: 100px;
+  max-height: 100px;
+  width: 100px;
+  height: 100px;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  color: black;
+  font-size: 50px;
+}
+
+h2, a {
+  font-family: 'Oswald', sans-serif;
+  color: black;
+}
+
+img {
+  max-width: 100px;
+  max-height: 100px;
+  width: 100px;
+  height: 100px;
+}
+
+#table {
+ margin: 0 auto;
+}
+
+.tableHead, .tableUser, .tableTime{
+  height: 50px;
+  width: 100px;
+  color: black;
+  text-align: center;
+}
+
+#scores {
+  margin: 0 auto;
+  background: lightgray;
+  opacity: .7;
+}
+
+#tableSection{
+  margin: 0 auto;
+  background: lightgray;
+  opacity: .5;
+  width: 700px;
+  /*padding: 10px;*/
+}
+
+ol{
+  text-align: center;
+  list-style: none;
+  padding: 0px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+ol li{
+  font-weight: normal;
+  margin: 10px 0;
+}
+
+nav li{
+font-weight: normal;
+display: inline;
+list-style: none;
+padding: 20px;
+}
+
+ul{
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 50px;
+}
+
+div{
+  margin: 0 auto;
+  margin-top: 16px;
+}
+
+button{
+  float:left;
+  clear:both;
+  width: 125px;
+  margin-bottom: 20px;
+  background-color: #4280a7;
+  color: white;
+  border: none;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 12px;
+  border-radius: 10px;
+}
+
+aside {
+  float:right;
+}
+
+#aside{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.user{
+  background: green;
+  width:200px;
+  margin: 0 auto;
+}
+
+.comp{
+  background-color: red;
+  width:200px;
+  margin: 0 auto;
+}
+
+.buttons{
+  position:fixed;
+}
+
+#compVsAi{
+  font-size: 30px;
+}
